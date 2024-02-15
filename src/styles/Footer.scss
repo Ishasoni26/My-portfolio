@@ -1,0 +1,100 @@
+// Inside Footer.scss
+
+.footer {
+  background-color: #dddddd;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+    
+
+    h4 {
+      font-size: 1.1em;
+      margin-bottom: 15px;
+      color: rgb(56, 56, 56);
+    }
+
+    p {
+      margin-bottom: 10px;
+      color: #5a5959;
+      font-size: 0.8em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 0.8em;
+      
+
+      li {
+        margin-bottom: 8px;
+        cursor: pointer;
+        color: #5a5959;
+        
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .social-icons {
+       display: flex;
+      font-size: 25px;
+      justify-content: space-evenly;
+      margin-right: 120px;
+      // padding: 6px;
+      
+      
+      i {
+        // font-size: 1084px;
+        // margin-right: 10px;
+        // padding: 3px;
+
+        cursor: pointer;
+      }
+      .twitter{
+        color: #3498db;
+      }
+      .github{
+        color: rgb(255, 255, 255);
+      }
+      .linkedin{
+        color: #2c3e50;
+      }
+    }
+
+    form {
+      display: flex;
+      margin-top: 15px;
+
+      input {
+        flex: 2;
+        padding: 10px;
+      }
+
+      button {
+        flex: 1;
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+
+        &:hover {
+          background-color: #2980b9;
+        }
+      }
+    }
+  }
+}

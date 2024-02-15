@@ -1,0 +1,57 @@
+// Header.scss
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    font-family: 'Manrope', sans-serif;
+  }
+  .logo1{
+    font-size: 1.8rem;
+    // font-weight: bold;
+    color: #007bff;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+
+      li {
+        a {
+          text-decoration: none;
+          color: #333;
+          // font-weight: bold;
+
+          &:hover {
+            color: #007bff;
+          }
+        }
+      }
+    }
+  }
+
+  .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+// StarRating.scss
+
+.star-rating {
+  font-size: 24px;
+  color: #ddd;
+}
+
+.star {
+  color: #ffcc00; // Color for filled stars
+  transition: color 0.5s ease-in-out;
+}
+
+.filled {
+  color: #ffcc00; // Color for filled stars
+}
